@@ -8,6 +8,9 @@ def gcf(x):
             gcf = i
             print(i)
 
+values = gcf(factor)
+print('Factoring Next')
+values1 = gcf(factor1)
 
 
 
