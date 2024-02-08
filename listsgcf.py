@@ -8,5 +8,7 @@ x = 20
 y = 15
 
 # prints 12
-print ("The gcf of 60 and 48 is : "12")
-print (gcf(20, 15))
+
+
+factor = int(input ('Please type in the number you want me to factor'))
+factor = 
