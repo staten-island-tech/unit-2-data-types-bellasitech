@@ -3,6 +3,10 @@ factor1 = int(input ('Please type in the number you want me to factor'))
 
 
 def gcf(x):
+    if x > y:
+        smaller = y
+    else: 
+        smaller = x
     for i in range(1, x+1): 
         if((x % i == 0)): 
             gcf = i

@@ -7,4 +7,4 @@ def gcf(x):
             gcf = i
             print(i)
 
-values = gcf(factor)
+values = gcf(factor) 

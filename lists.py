@@ -15,3 +15,15 @@ print(len(words))
 y = input("give me a number")
 print(y)
 print(y+9)
+
+
+
+
+
+
+
+
+
+values = gcf(factor)
+print('Factoring next #')
+values1 = gcf(factor1)
