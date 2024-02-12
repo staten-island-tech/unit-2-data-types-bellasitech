@@ -1,6 +1,6 @@
-bill = 100 
+bill = (input('what was the bill cost'))
 service = (input('please rate your service here')) 
-if service == "badgoo":
+if service == "bad":
     print(int(bill)*1)
 elif service == "okay":
     print(int(bill)*1.15)
