@@ -12,3 +12,10 @@ elif service == ("great"):
     percentage = 0.25
 tip = bill * percentage
 print(tip)
+
+
+
+if x > y:
+        smaller = y
+    else:  
+        smaller = x 
