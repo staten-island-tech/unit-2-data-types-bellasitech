@@ -1,13 +1,12 @@
-y = int(input ('Please type in the number you want me to factor'))
-x = int(input ('Please type in the number you want me to factor'))
+def gcfe(x,y):
+    while y!=0:
+        z=y
+        y=int(x)%int(y)
+        x=z
+    return x
+x = int(input("number"))
+y= int(input("number"))
 
-
-def gcf(x,y):
-    for i in range(y+1, x+1): 
-        if((x % i == 0)) and (y % i == 0): 
-            gcf = i
-        return gcf 
-
-values = print(gcf(x, y))
-
+gcf=gcfe(x,y)
+print(gcf)
 
